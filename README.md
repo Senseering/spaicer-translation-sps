@@ -26,6 +26,11 @@ The SPAICER project is developing a data-driven ecosystem based on lifelong, col
 <p align="center" >
   <img  href="https://www.spaicer.de/" src="assets/architecture.png" width="100%">
 </p>
+<p align="center" >
+  <img  href="https://www.spaicer.de/" src="assets/legend.png" width="100%">
+</p>
+
+
 
 
 
