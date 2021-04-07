@@ -22,7 +22,11 @@ The SPAICER project is developing a data-driven ecosystem based on lifelong, col
 
 
 ## Architecture
-Needs to be done
+
+<p align="center" >
+  <img  href="https://www.spaicer.de/" src="assets/architecture.png" width="100%">
+</p>
+
 
 
 
