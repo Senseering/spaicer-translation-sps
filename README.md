@@ -1,7 +1,7 @@
 
 
 <p align="center" >
-  <img src="assets/spaicer.png" width="70%">
+  <img src="assets/logo_spaicer_test.png.png" width="70%">
 </p>
 
 <p align="center">
