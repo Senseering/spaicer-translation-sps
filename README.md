@@ -1,11 +1,11 @@
 
 
 <p align="center" >
-  <img src="assets/logo_spaicer_test.png" width="70%">
+  <img  href="https://www.spaicer.de/" src="assets/logo_spaicer_test.png" width="70%">
 </p>
 
 <p align="center">
-    <a href="https://www.spaicer.de/">Spaicer</a>: Scalable adaptive production systems through AI-based resilience optimization. <br>
+   Scalable adaptive production systems through AI-based resilience optimization. <br>
     Powered by <a href="https://www.mydataeconomy.com/#/search">MyDataEconomy</a>
 </p>
 <p align="center">
