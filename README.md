@@ -75,3 +75,7 @@ npm install
 
 ### Configuration 
 To configure the two workers you need to register a new datasource at the providing Manager. This datasource publishes raw texts that need to be translated.
+....
+
+
+ADD screenshots of the workflow
