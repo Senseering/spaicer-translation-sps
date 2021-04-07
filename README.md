@@ -21,11 +21,12 @@ The ability of a company to permanently adapt to internal and external changes a
 The SPAICER project is developing a data-driven ecosystem based on lifelong, collaborative and low-threshold Smarter Resilience services by leveraging leading AI technologies and Industrie 4.0 standards with the goal of anticipating disruptions (anticipation) and optimally adapting production plans to active disruptions (reaction) at any time.
 
 
+## Architecture
+Needs to be done
+
+
 
 ## Install
-
->The installation process expects Ubuntu 20.04 with 4GB RAM, 2 CPU Cores and 20GB of free disk space.
-
 ### Prerequisits
 You need to install <a href="https://nodejs.org/en/">node.js</a>
 
