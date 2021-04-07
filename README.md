@@ -35,14 +35,14 @@ Company Y can now use the catalog to find the data (5) and either transfer the d
 Translated with www.DeepL.com/Translator (free version)
 ## Architecture
 It is a decentralized architecture in which participating parties exchange data in a sovereign way. The federated catalog serves as a search engine for data sources and data that was created, based on services.
+<p align="end" >
+  <img  href="https://www.spaicer.de/" src="assets/legend.png" width="100px">
+</p>
+
 <p align="center" >
   <img  href="https://www.spaicer.de/" src="assets/architecture.png" width="100%">
 </p>
 
-
-<p align="center" >
-  <img  href="https://www.spaicer.de/" src="assets/legend.png" width="100px">
-</p>
 
 
 
