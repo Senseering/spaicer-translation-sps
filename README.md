@@ -32,7 +32,6 @@ This can be done with the help of batch downloads. In our case, we decide to use
 The translated texts are stored on the service provider's node (4) and Company Y is released. 
 Company Y can now use the catalog to find the data (5) and either transfer the data to its own network (6) or use it freely via open APIs (event-based or batch-based). 
 
-Translated with www.DeepL.com/Translator (free version)
 ## Architecture
 It is a decentralized architecture in which participating parties exchange data in a sovereign way. The federated catalog serves as a search engine for data sources and data that was created, based on services.
 <p align="end" >
