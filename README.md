@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    <a href="https://www.spaicer.de/">Spaicer</a>: Scalable adaptive production systems through AI-based resilience optimization. 
+    <a href="https://www.spaicer.de/">Spaicer</a>: Scalable adaptive production systems through AI-based resilience optimization. <br>
     Powered by <a href="https://www.mydataeconomy.com/#/search">MyDataEconomy</a>
 </p>
 <p align="center">
