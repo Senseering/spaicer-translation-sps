@@ -11,9 +11,10 @@
 <p align="center">
   <a href="https://discord.gg/qDF38JDR3D" style="text-decoration:none;"><img src="https://img.shields.io/badge/Discord-9cf.svg?logo=discord" alt="Discord"></a>
 </p>
+
 ## Motivation
 ### Testing scenario
-The aim is to test and evaluate the requirements created in previous work packages as examples. 
+The goal is to test and evaluate the requirements created in previous work packages as examples. 
 Among other aspects, the execution of external services, the roles of data producers, and central architectural elements such as the catalog and vocabulary provider are to be tested.
 
 In order to focus on testing the architecture, we have decided to use a translation service. However, this is an arbitrarily replaceable service. This scenario can also be performed with object recognition, annomaly detection, machine learning algorithms or artificial intelligence. 
