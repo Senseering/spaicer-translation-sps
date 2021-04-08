@@ -74,7 +74,7 @@ This can be done with the help of batch downloads. In our case, we decide to use
     //initialize a websocket connection to the data providing node (Company Y)
     const socket = new WebSocket("wss://<your-receipt-id>:<your-permission-key>@<your-provider-url>/uploader/")
     socket.on('open', function () {
-        // waits for incoming data. This is called every time company Y stores data at its node
+        //waits for incoming data. This is called every time company Y stores data at its node
         socket.on('message', async function (message) {
             const fmessage = JSON.parse(message)
             let body = fmessage.message.data
