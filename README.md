@@ -47,60 +47,60 @@ Company Y can now use the catalog to find the data **5** and either transfer the
 
 ### Example workflow
 <p align="center" >
-  <img  href="https://www.senseering.de/" src="assets/1.png" width="100%">
+  <img  href="https://www.senseering.de/" src="assets/workflow/1.png" width="100%">
 </p>
 <p align="center" >
-  <img  href="https://www.senseering.de/" src="assets/2.png" width="100%">
-</p>
-
-
-<p align="center" >
-  <img  href="https://www.senseering.de/" src="assets/3.png" width="100%">
+  <img  href="https://www.senseering.de/" src="assets/workflow/2.png" width="100%">
 </p>
 
 
 <p align="center" >
-  <img  href="https://www.senseering.de/" src="assets/4.png" width="100%">
+  <img  href="https://www.senseering.de/" src="assets/workflow/3.png" width="100%">
 </p>
 
 
 <p align="center" >
-  <img  href="https://www.senseering.de/" src="assets/5.png" width="100%">
+  <img  href="https://www.senseering.de/" src="assets/workflow/4.png" width="100%">
 </p>
 
 
 <p align="center" >
-  <img  href="https://www.senseering.de/" src="assets/6.png" width="100%">
+  <img  href="https://www.senseering.de/" src="assets/workflow/5.png" width="100%">
 </p>
 
 
 <p align="center" >
-  <img  href="https://www.senseering.de/" src="assets/7.png" width="100%">
+  <img  href="https://www.senseering.de/" src="assets/workflow/6.png" width="100%">
 </p>
 
 
 <p align="center" >
-  <img  href="https://www.senseering.de/" src="assets/8.png" width="100%">
+  <img  href="https://www.senseering.de/" src="assets/workflow/7.png" width="100%">
 </p>
 
 
 <p align="center" >
-  <img  href="https://www.senseering.de/" src="assets/9.png" width="100%">
+  <img  href="https://www.senseering.de/" src="assets/workflow/8.png" width="100%">
 </p>
 
 
 <p align="center" >
-  <img  href="https://www.senseering.de/" src="assets/10.png" width="100%">
+  <img  href="https://www.senseering.de/" src="assets/workflow/9.png" width="100%">
 </p>
 
 
 <p align="center" >
-  <img  href="https://www.senseering.de/" src="assets/11.png" width="100%">
+  <img  href="https://www.senseering.de/" src="assets/workflow/10.png" width="100%">
 </p>
 
 
 <p align="center" >
-  <img  href="https://www.senseering.de/" src="assets/12.png" width="100%">
+  <img  href="https://www.senseering.de/" src="assets/workflow/11.png" width="100%">
+</p>
+
+
+<p align="center" >
+  <img  href="https://www.senseering.de/" src="assets/workflow/12.png" width="100%">
 </p>
 
 
