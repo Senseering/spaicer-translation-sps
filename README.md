@@ -42,8 +42,7 @@ We have a data producer who regularly publishes texts **1**. This can be done ev
 </p>
 
 
-A service provider would like to use this data to build up its own database to improve its translation algorithms, and also give the data producer the opportunity to use its service. However, his USP (the translation algorithm) should not to be published. The service provider obtains the authorization to the different texts of the data producer ( Company Y)**2** via the catalog. This is only possible because both parties are within the same project (SPAICER). 
-
+A service provider would like to use this data to build up its own database to improve its translation algorithms, and also give the data producer the opportunity to use its service. However, his USP (the translation algorithm) should not to be published. The service provider obtains the authorization to the different texts of the data producer ( Company Y) via the catalog. This is only possible because both parties are within the same project (SPAICER). 
 
 <p align="center" >
   <img  href="https://www.senseering.de/" src="assets/workflow/3.png" width="100%">
@@ -60,7 +59,7 @@ A service provider would like to use this data to build up its own database to i
 </p>
 
 
-The actual transfer of the data then takes place with a peer-to-peer connection **3**.
+The actual transfer of the data then takes place with a peer-to-peer connection.
 This can be done with the help of batch downloads. In our case, we decide to use an event-based data stream (websockets).  
 
 <p align="center" >
@@ -68,7 +67,31 @@ This can be done with the help of batch downloads. In our case, we decide to use
 </p>
 
 
-The translated texts are stored on the service provider's node **4** and Company Y is released. 
+```js
+    //initially connect service to node of company-x 
+    await worker.connect(config)
+
+    //initialize a websocket connection to the data providing node (Company Y)
+    const socket = new WebSocket("wss://<your-receipt-id>:<your-permission-key>@<your-provider-url>/uploader/")
+    socket.on('open', function () {
+        // waits for incoming data. This is called every time company Y stores data at its node
+        socket.on('message', async function (message) {
+            const fmessage = JSON.parse(message)
+            let body = fmessage.message.data
+
+            //execute service 
+            let res = await translateText(body.data.text);
+
+            //upload results to node of Company X (Service provider)
+            await worker.publish({ text: res.text })
+        })
+        //...
+    })
+```
+
+
+
+The translated texts are stored on the service provider's node and Company Y is released. 
 <p align="center" >
   <img  href="https://www.senseering.de/" src="assets/workflow/7.png" width="100%">
 </p>
@@ -83,7 +106,7 @@ The translated texts are stored on the service provider's node **4** and Company
   <img  href="https://www.senseering.de/" src="assets/workflow/9.png" width="100%">
 </p>
 
-Company Y can now use the catalog to find the data **5** and either transfer the data to its own network **6** or use it freely via open APIs (event-based or batch-based). 
+Company Y can now use the catalog to find the data and either transfer the data to its own network or use it freely via open APIs (event-based or batch-based). 
 
 
 <p align="center" >
