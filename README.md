@@ -11,14 +11,25 @@
 <p align="center">
   <a href="https://discord.gg/qDF38JDR3D" style="text-decoration:none;"><img src="https://img.shields.io/badge/Discord-9cf.svg?logo=discord" alt="Discord"></a>
 </p>
+<p align="center">
+  <a href="https://discord.gg/qDF38JDR3D" style="text-decoration:none;"><img src="https://img.shields.io/badge/Discord-9cf.svg?logo=discord" alt="Discord"></a>
+</p>
 
 ## Motivation
+### Testing scenario
+The aim is to test and evaluate the requirements created in previous work packages as examples. 
+Among other aspects, the execution of external services, the roles of data producers, and central architectural elements such as the catalog and vocabulary provider are to be tested.
 
-in a globalized and interconnected business world, production interruptions including supply chain disruption have been the leading business risk for many years.
+In order to focus on testing the architecture, we have decided to use a translation service. However, this is an arbitrarily replaceable service. This scenario can also be performed with object recognition, annomaly detection, machine learning algorithms or artificial intelligence. 
+
+### Spaicer
+In a globalized and interconnected business world, production interruptions including supply chain disruption have been the leading business risk for many years.
 
 The ability of a company to permanently adapt to internal and external changes and disruptions is the "quest for resilience". Reinforced by a significant increase in complexity in production due to Industry 4.0, resilience management thus becomes an indispensable success factor for manufacturing companies.
 
 The SPAICER project is developing a data-driven ecosystem based on lifelong, collaborative and low-threshold Smarter Resilience services by leveraging leading AI technologies and Industrie 4.0 standards with the goal of anticipating disruptions (anticipation) and optimally adapting production plans to active disruptions (reaction) at any time.
+
+
 
 ## Architecture
 It is a decentralized architecture in which participating parties exchange data in a sovereign way. The federated catalog serves as a search engine for data sources and data that was created, based on services.
