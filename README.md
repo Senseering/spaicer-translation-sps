@@ -33,6 +33,8 @@ It is a decentralized architecture in which participating parties exchange data 
 
 ## Scenario
 
+### Descriptions
+
 We have a data producer who regularly publishes texts **1**. This can be done every minute or every second. This data producer passes on the data to participating partners within SPAICER, which may be used according to SPAICER guidelines. 
 
 A service provider would like to use this data to build up its own database to improve its translation algorithms, and also give the data producer the opportunity to use its service. However, his USP (the translation algorithm) should not to be published. The service provider obtains the authorization to the different texts of the data producer ( Company Y)**2** via the catalog. This is only possible because both parties are within the same project (SPAICER). 
@@ -42,6 +44,68 @@ This can be done with the help of batch downloads. In our case, we decide to use
 
 The translated texts are stored on the service provider's node **4** and Company Y is released. 
 Company Y can now use the catalog to find the data **5** and either transfer the data to its own network **6** or use it freely via open APIs (event-based or batch-based). 
+
+### Example workflow
+<p align="center" >
+  <img  href="https://www.senseering.de/" src="assets/1.png" width="100%">
+</p>
+<p align="center" >
+  <img  href="https://www.senseering.de/" src="assets/2.png" width="100%">
+</p>
+
+
+<p align="center" >
+  <img  href="https://www.senseering.de/" src="assets/3.png" width="100%">
+</p>
+
+
+<p align="center" >
+  <img  href="https://www.senseering.de/" src="assets/4.png" width="100%">
+</p>
+
+
+<p align="center" >
+  <img  href="https://www.senseering.de/" src="assets/5.png" width="100%">
+</p>
+
+
+<p align="center" >
+  <img  href="https://www.senseering.de/" src="assets/6.png" width="100%">
+</p>
+
+
+<p align="center" >
+  <img  href="https://www.senseering.de/" src="assets/7.png" width="100%">
+</p>
+
+
+<p align="center" >
+  <img  href="https://www.senseering.de/" src="assets/8.png" width="100%">
+</p>
+
+
+<p align="center" >
+  <img  href="https://www.senseering.de/" src="assets/9.png" width="100%">
+</p>
+
+
+<p align="center" >
+  <img  href="https://www.senseering.de/" src="assets/10.png" width="100%">
+</p>
+
+
+<p align="center" >
+  <img  href="https://www.senseering.de/" src="assets/11.png" width="100%">
+</p>
+
+
+<p align="center" >
+  <img  href="https://www.senseering.de/" src="assets/12.png" width="100%">
+</p>
+
+
+
+
 
 
 ## Install
@@ -72,6 +136,3 @@ npm install
 ### Configuration 
 To configure the two workers you need to register a new datasource at the providing Manager. This datasource publishes raw texts that need to be translated.
 ....
-
-
-ADD screenshots of the workflow
