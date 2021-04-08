@@ -33,7 +33,7 @@ It is a decentralized architecture in which participating parties exchange data 
 
 ## Scenario
 
-We have a data producer who regularly publishes texts **1**. This can be done every minute or every second. This data producer passes on the data to participating partners within SPAICER, which may be used according to SPAICER guidelines. 
+We have a data producer who regularly publishes texts. This can be done every minute or every second. This data producer passes on the data to participating partners within SPAICER, which may be used according to SPAICER guidelines. 
 <p align="center" >
   <img  href="https://www.senseering.de/" src="assets/workflow/1.png" width="100%">
 </p>
