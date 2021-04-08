@@ -33,7 +33,6 @@ It is a decentralized architecture in which participating parties exchange data 
 <p align="end" >
   <img  href="https://www.spaicer.de/" src="assets/legend.png" width="100px">
 </p>
-
 <p align="center" >
   <img  href="https://www.spaicer.de/" src="assets/architecture.png" width="100%">
 </p>
@@ -51,21 +50,15 @@ We have a data producer who regularly publishes texts. This can be done every mi
 
 
 A service provider would like to use this data to build up its own database to improve its translation algorithms, and also give the data producer the opportunity to use its service. However, his USP (the translation algorithm) should not to be published. The service provider obtains the authorization to the different texts of the data producer ( Company Y) via the catalog. This is only possible because both parties are within the same project (SPAICER). 
-
 <p align="center" >
   <img  href="https://www.senseering.de/" src="assets/workflow/3.png" width="100%">
 </p>
-
-
 <p align="center" >
   <img  href="https://www.senseering.de/" src="assets/workflow/4.png" width="100%">
 </p>
-
-
 <p align="center" >
   <img  href="https://www.senseering.de/" src="assets/workflow/5.png" width="100%">
 </p>
-
 
 The actual transfer of the data then takes place with a peer-to-peer connection.
 This can be done with the help of batch downloads. In our case, we decide to use an event-based data stream (websockets).  
@@ -73,7 +66,6 @@ This can be done with the help of batch downloads. In our case, we decide to use
 <p align="center" >
   <img  href="https://www.senseering.de/" src="assets/workflow/6.png" width="100%">
 </p>
-
 
 ```js
     //initially connect service to node of company-x 
@@ -97,18 +89,14 @@ This can be done with the help of batch downloads. In our case, we decide to use
     })
 ```
 
-
-
 The translated texts are stored on the service provider's node and Company Y is released. 
 <p align="center" >
   <img  href="https://www.senseering.de/" src="assets/workflow/7.png" width="100%">
 </p>
 
-
 <p align="center" >
   <img  href="https://www.senseering.de/" src="assets/workflow/8.png" width="100%">
 </p>
-
 
 <p align="center" >
   <img  href="https://www.senseering.de/" src="assets/workflow/9.png" width="100%">
@@ -116,17 +104,12 @@ The translated texts are stored on the service provider's node and Company Y is 
 
 Company Y can now use the catalog to find the data and either transfer the data to its own network or use it freely via open APIs (event-based or batch-based). 
 
-
 <p align="center" >
   <img  href="https://www.senseering.de/" src="assets/workflow/10.png" width="100%">
 </p>
-
-
 <p align="center" >
   <img  href="https://www.senseering.de/" src="assets/workflow/11.png" width="100%">
 </p>
-
-
 <p align="center" >
   <img  href="https://www.senseering.de/" src="assets/workflow/12.png" width="100%">
 </p>
